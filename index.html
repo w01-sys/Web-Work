@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fabulous Nails and Beauty</title>
+  <title>Fab Nails & Beauty</title>
 
   <!-- ====== Google Fonts (Elegant serif + clean sans-serif) ====== -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -310,6 +310,15 @@
       text-align: center;
     }
 
+    /* ===== Social Icons Styling ===== */
+.social-link i {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+.social-link:hover i {
+  color: var(--gold);
+  transform: scale(1.2);
+}
+
     /* ==========================================================
        MEDIA QUERIES
        ========================================================== */
@@ -344,7 +353,7 @@
   <nav class="navbar navbar-expand-md fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        Fabulous Nails and Beauty
+        Fab Nails & Beauty
       </a>
 
       <!-- Hamburger menu for mobile -->
@@ -356,9 +365,6 @@
       <div class="collapse navbar-collapse justify-content-end" id="navMenu">
         <ul class="navbar-nav align-items-start align-items-md-center me-md-3">
           <li class="nav-item">
-            <a class="nav-link small text-dark" href="#policy">Policy</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link small text-dark" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
@@ -368,7 +374,7 @@
 
         <!-- Action buttons -->
         <div class="d-flex flex-column flex-md-row gap-2">
-          <a href="#" class="btn btn-gold-outline">Sign In</a>
+          <a href="#" class="btn btn-gold-outline">Find Us</a>
           <a href="#book" class="btn btn-gold-solid">Book Now</a>
         </div>
       </div>
@@ -390,27 +396,43 @@
           <div class="hero-card">
             <div class="eyebrow">
               <div class="eyebrow-line"></div>
-              Whitley Bay • Est. 2025
+              York • Est. 2025
             </div>
 
-            <h1 class="brand-heading">Fabulous Nails<br>and Beauty</h1>
+            <h1 class="brand-heading">Fab Nails<br>& Beauty</h1>
             <p class="hero-desc">
-              Luxury nail and beauty services in the heart of Whitley Bay.
+              Luxury nail and beauty services in the heart of York.
               Calm space, meticulous work, and long-lasting results.
             </p>
 
             <div class="d-flex flex-column flex-sm-row gap-2">
               <a href="#book" class="btn btn-gold-solid">Book Now</a>
-              <a href="#policy" class="btn btn-gold-outline">View Policy</a>
             </div>
 
             <!-- Mini contact info below -->
             <div class="contact-mini mt-4">
-              <div><strong>Call:</strong> <a href="tel:+441912521522">+44 191 252 1522</a></div>
-              <div><strong>Email:</strong> <a href="mailto:kentvu2505@gmail.com">kentvu2505@gmail.com</a></div>
-              <div class="mt-2">
-                <a href="#" style="margin-right:.75rem;">Instagram</a>
-                <a href="#">Facebook</a>
+              <div><strong>Call:</strong> <a href="tel:+44##########">+44 ### ### ####</a></div>
+              <div><strong>Email:</strong> <a href="mailto:#####@gmail.com">#####@gmail.com</a></div>
+                <div class="mt-3 d-flex align-items-center gap-3">
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-link text-dark fs-5">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/yourpage" target="_blank" class="social-link text-dark fs-5">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+  <!-- TikTok -->
+  <a href="https://www.tiktok.com/@yourprofile" target="_blank" class="social-link text-dark fs-5">
+    <i class="fab fa-tiktok"></i>
+  </a>
+
+  <!-- Google Maps -->
+  <a href="https://maps.google.com/?q=Fabulous+Nails+and+Beauty+Whitley+Bay" target="_blank" class="social-link text-dark fs-5">
+    <i class="fas fa-map-marker-alt"></i>
+  </a>
               </div>
             </div>
           </div>
@@ -471,9 +493,9 @@
             <div class="info-label">Contact</div>
             <div class="info-text">
               <div><strong>Phone</strong><br>
-                <a href="tel:+441912521522">+44 191 252 1522</a></div>
+                <a href="tel:+44##########">+44 ### ### ####</a></div>
               <div class="mt-3"><strong>Email</strong><br>
-                <a href="mailto:kentvu2505@gmail.com">kentvu2505@gmail.com</a></div>
+                <a href="mailto:FN&B@gmail.com">#####@gmail.com</a></div>
               <div class="mt-3"><strong>Social</strong><br>
                 <a href="#">Instagram</a><br><a href="#">Facebook</a></div>
             </div>
@@ -485,7 +507,7 @@
           <div class="info-card d-flex flex-column">
             <div class="info-label">Address</div>
             <div class="info-text mb-3">
-              Park View<br>Whitley Bay<br>UK, England
+              York<br>City Centre<br>England<br>YO1 7PW
             </div>
             <!-- Replace src with your actual Google Maps API embed -->
             <div class="map-wrapper flex-grow-1">
@@ -494,7 +516,7 @@
                 loading="lazy"
                 allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Park+View,Whitley+Bay,UK">
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37558.03028559814!2d-1.1581734513671773!3d53.96057460000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931a604b40d8f%3A0x8f7552b9f4def330!2sNail%20Bar%20One%20-%20York!5e0!3m2!1sen!2suk!4v1761358768492!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
               </iframe>
             </div>
           </div>
@@ -538,7 +560,7 @@
         </ul>
         <p class="mb-0">
           When you submit, we’ll receive it directly by e-mail at
-          <strong>kentvu2505@gmail.com</strong>.
+          <strong>#####@gmail.com</strong>.
         </p>
       </div>
     </div>
@@ -548,7 +570,7 @@
        FOOTER
        ========================================================== -->
   <footer>
-    © Fabulous Nails and Beauty · Whitley Bay · 2025
+    © Fab Nails & Beauty · York · 2025
   </footer>
 
   <!-- Bootstrap JS (for navbar collapse functionality) -->
